@@ -1,0 +1,17 @@
+/Users/king/Sources/Smart/Base/Application/bin/Debug/net7.0/Application.deps.json
+/Users/king/Sources/Smart/Base/Application/bin/Debug/net7.0/Application.dll
+/Users/king/Sources/Smart/Base/Application/bin/Debug/net7.0/Application.pdb
+/Users/king/Sources/Smart/Base/Application/bin/Debug/net7.0/Domain.dll
+/Users/king/Sources/Smart/Base/Application/bin/Debug/net7.0/Shared.dll
+/Users/king/Sources/Smart/Base/Application/bin/Debug/net7.0/Domain.pdb
+/Users/king/Sources/Smart/Base/Application/bin/Debug/net7.0/Shared.pdb
+/Users/king/Sources/Smart/Base/Application/obj/Debug/net7.0/Application.csproj.AssemblyReference.cache
+/Users/king/Sources/Smart/Base/Application/obj/Debug/net7.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/king/Sources/Smart/Base/Application/obj/Debug/net7.0/Application.AssemblyInfoInputs.cache
+/Users/king/Sources/Smart/Base/Application/obj/Debug/net7.0/Application.AssemblyInfo.cs
+/Users/king/Sources/Smart/Base/Application/obj/Debug/net7.0/Application.csproj.CoreCompileInputs.cache
+/Users/king/Sources/Smart/Base/Application/obj/Debug/net7.0/Application.csproj.CopyComplete
+/Users/king/Sources/Smart/Base/Application/obj/Debug/net7.0/Application.dll
+/Users/king/Sources/Smart/Base/Application/obj/Debug/net7.0/refint/Application.dll
+/Users/king/Sources/Smart/Base/Application/obj/Debug/net7.0/Application.pdb
+/Users/king/Sources/Smart/Base/Application/obj/Debug/net7.0/ref/Application.dll

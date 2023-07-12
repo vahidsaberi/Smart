@@ -1,25 +1,45 @@
-var builder = WebApplication.CreateBuilder(args);
+using Base.Application;
+using Smart.Gateway.Configurations;
+//using Smart.Gateway.Controllers;
+using Base.Infrastructure;
+using Base.Infrastructure.Common;
+using Base.Infrastructure.Logging.Serilog;
+using Serilog;
+using Base.Infrastructure.Controllers;
+using Smart.Gateway;
 
-// Add services to the container.
-builder.Services.AddRazorPages();
+[assembly: ApiConventionType(typeof(SmartApiConventions))]
 
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+StaticLogger.EnsureInitialized();
+Log.Information("Server Booting Up...");
+try
 {
-    app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+    var builder = WebApplication.CreateBuilder(args);
+
+    builder.AddConfigurations().RegisterSerilog();
+    builder.Services.AddControllers();
+    builder.Services.AddInfrastructure(builder.Configuration);
+    builder.Services.AddApplication();
+
+    var app = builder.Build();
+
+    await app.Services.InitializeDatabasesAsync();
+
+    app.UseInfrastructure(builder.Configuration);
+
+    await app.Services.InitializeRecurringJobsAsync();
+
+    app.MapEndpoints();
+    app.Run();
 }
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
-
-app.UseAuthorization();
-
-app.MapRazorPages();
-
-app.Run();
+catch (Exception ex) when (!ex.GetType().Name.Equals("HostAbortedException", StringComparison.Ordinal))
+{
+    StaticLogger.EnsureInitialized();
+    Log.Fatal(ex, "Unhandled exception");
+}
+finally
+{
+    StaticLogger.EnsureInitialized();
+    Log.Information("Server Shutting down...");
+    Log.CloseAndFlush();
+}

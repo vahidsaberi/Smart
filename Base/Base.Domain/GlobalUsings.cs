@@ -1,0 +1,1 @@
+global using Base.Domain.Common.Contracts;

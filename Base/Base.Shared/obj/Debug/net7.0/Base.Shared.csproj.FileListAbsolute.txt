@@ -1,0 +1,12 @@
+/Users/king/Sources/Smart/Base/Base.Shared/bin/Debug/net7.0/Base.Shared.deps.json
+/Users/king/Sources/Smart/Base/Base.Shared/bin/Debug/net7.0/Base.Shared.dll
+/Users/king/Sources/Smart/Base/Base.Shared/bin/Debug/net7.0/Base.Shared.pdb
+/Users/king/Sources/Smart/Base/Base.Shared/obj/Debug/net7.0/Base.Shared.csproj.AssemblyReference.cache
+/Users/king/Sources/Smart/Base/Base.Shared/obj/Debug/net7.0/Base.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/king/Sources/Smart/Base/Base.Shared/obj/Debug/net7.0/Base.Shared.AssemblyInfoInputs.cache
+/Users/king/Sources/Smart/Base/Base.Shared/obj/Debug/net7.0/Base.Shared.AssemblyInfo.cs
+/Users/king/Sources/Smart/Base/Base.Shared/obj/Debug/net7.0/Base.Shared.csproj.CoreCompileInputs.cache
+/Users/king/Sources/Smart/Base/Base.Shared/obj/Debug/net7.0/Base.Shared.dll
+/Users/king/Sources/Smart/Base/Base.Shared/obj/Debug/net7.0/refint/Base.Shared.dll
+/Users/king/Sources/Smart/Base/Base.Shared/obj/Debug/net7.0/Base.Shared.pdb
+/Users/king/Sources/Smart/Base/Base.Shared/obj/Debug/net7.0/ref/Base.Shared.dll

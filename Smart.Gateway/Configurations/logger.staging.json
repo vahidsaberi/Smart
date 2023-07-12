@@ -1,0 +1,7 @@
+{
+  "LoggerSettings": {
+    "AppName": "Trade-Genius.WebApi",
+    "WriteToFile": false,
+    "StructuredConsoleLogging": true
+  }
+}

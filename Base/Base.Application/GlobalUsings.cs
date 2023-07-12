@@ -1,0 +1,16 @@
+global using Ardalis.Specification;
+global using FluentValidation;
+global using Base.Application.Common.Events;
+global using Base.Application.Common.Exceptions;
+global using Base.Application.Common.FileStorage;
+global using Base.Application.Common.Interfaces;
+global using Base.Application.Common.Models;
+global using Base.Application.Common.Persistence;
+global using Base.Application.Common.Specification;
+global using Base.Application.Common.Validation;
+global using Base.Domain.Common;
+global using Base.Domain.Common.Contracts;
+global using Base.Shared.Notifications;
+global using MediatR;
+global using Microsoft.Extensions.Localization;
+global using Microsoft.Extensions.Logging;

@@ -1,0 +1,124 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "NewId/4.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/NewId.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/NewId.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Base.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Base.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Base.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NewId/4.0.1": {
+      "sha512": "jegBasNndmG21G3BmT51suFDCIz/sLN81j+IxmkZ4iWoaDi8LygeHiyNnYbXz5OQh9nCRJFIx1+PJrlYi1Gc9Q==",
+      "type": "package",
+      "path": "newid/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/NewId.dll",
+        "lib/net6.0/NewId.xml",
+        "lib/netstandard2.0/NewId.dll",
+        "lib/netstandard2.0/NewId.xml",
+        "newid.4.0.1.nupkg.sha512",
+        "newid.nuspec"
+      ]
+    },
+    "Base.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Base.Shared/Base.Shared.csproj",
+      "msbuildProject": "../Base.Shared/Base.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Base.Shared >= 1.0.0",
+      "NewId >= 4.0.1"
+    ]
+  },
+  "packageFolders": {
+    "/Users/king/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/king/Sources/Smart/Base/Base.Domain/Base.Domain.csproj",
+      "projectName": "Base.Domain",
+      "projectPath": "/Users/king/Sources/Smart/Base/Base.Domain/Base.Domain.csproj",
+      "packagesPath": "/Users/king/.nuget/packages/",
+      "outputPath": "/Users/king/Sources/Smart/Base/Base.Domain/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/king/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Users/king/Sources/Smart/Base/Base.Shared/Base.Shared.csproj": {
+              "projectPath": "/Users/king/Sources/Smart/Base/Base.Shared/Base.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "NewId": {
+            "target": "Package",
+            "version": "[4.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

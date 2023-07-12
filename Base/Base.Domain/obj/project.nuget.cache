@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tX+To7RuFhD1H5TcaKTx+Okz96+HpkvmqcWJO0vC+DO3G/29UQ6jqPuPAXhJGvzrVfJWkpDaIZS/Adm2SMFehQ==",
+  "success": true,
+  "projectFilePath": "/Users/king/Sources/Smart/Base/Base.Domain/Base.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/king/.nuget/packages/newid/4.0.1/newid.4.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

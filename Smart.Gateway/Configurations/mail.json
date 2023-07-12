@@ -1,0 +1,10 @@
+{
+  "MailSettings": {
+    "DisplayName": "Vahid Saberi",
+    "From": "cyrus.pirates@gmail.com",
+    "Host": "smtp.gmail.email",
+    "Password": "AdEqEKB4QwWX9Xey82",
+    "Port": 587,
+    "UserName": "cyrus.pirates@gmail.com"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9cXhXikDz+NhkBJa75fhJKHIsIGDSYhir0Cutov89tyH4Rct03a2Z15x7kfJF/cy2+dX5IYdKKW4itlB7TuPQQ==",
+  "success": true,
+  "projectFilePath": "/Users/king/Sources/Smart/Services/Identity/Identity.Domain/Identity.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/king/.nuget/packages/newid/4.0.1/newid.4.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
