@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Identity.Domain/1.0.0": {
+        "dependencies": {
+          "Base.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Identity.Domain.dll": {}
+        }
+      },
+      "NewId/4.0.1": {
+        "runtime": {
+          "lib/net6.0/NewId.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          }
+        }
+      },
+      "Base.Domain/1.0.0": {
+        "dependencies": {
+          "Base.Shared": "1.0.0",
+          "NewId": "4.0.1"
+        },
+        "runtime": {
+          "Base.Domain.dll": {}
+        }
+      },
+      "Base.Shared/1.0.0": {
+        "runtime": {
+          "Base.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Identity.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NewId/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jegBasNndmG21G3BmT51suFDCIz/sLN81j+IxmkZ4iWoaDi8LygeHiyNnYbXz5OQh9nCRJFIx1+PJrlYi1Gc9Q==",
+      "path": "newid/4.0.1",
+      "hashPath": "newid.4.0.1.nupkg.sha512"
+    },
+    "Base.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Base.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

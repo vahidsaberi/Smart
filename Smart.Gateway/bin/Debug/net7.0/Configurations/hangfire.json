@@ -1,0 +1,42 @@
+{
+  "HangfireSettings": {
+    "Route": "/jobs",
+    "Dashboard": {
+      "AppPath": "/",
+      "StatsPollingInterval": 2000,
+      "DashboardTitle": "Jobs"
+    },
+    "Server": {
+      "HeartbeatInterval": "00:00:30",
+      "Queues": [
+        "default",
+        "notdefault"
+      ],
+      "SchedulePollingInterval": "00:00:15",
+      "ServerCheckInterval": "00:05:00",
+      "ServerName": null,
+      "ServerTimeout": "00:05:00",
+      "ShutdownTimeout": "00:00:15",
+      "WorkerCount": 5
+    },
+    "Storage": {
+      //"DBProvider": "postgresql",
+      //"ConnectionString": "Host=localhost;Port=5432;Database=;Username=postgres;Password=admin;Include Error Detail=true",
+      //"StorageProvider": "mssql",
+      //"ConnectionString": "Data Source=.;Initial Catalog=Trade.Genius.DB;User ID=sa;Password=Bo!2bjaq;Encrypt=False;MultipleActiveResultSets=true;",
+      "StorageProvider": "mssql",
+      "ConnectionString": "Server=127.0.0.1,1433;Database=Trade.Genius.DB;User Id=sa;Password=Bo!2bjaq;TrustServerCertificate=true;",
+      "Options": {
+        "CommandBatchMaxTimeout": "00:05:00",
+        "QueuePollInterval": "00:00:01",
+        "UseRecommendedIsolationLevel": true,
+        "SlidingInvisibilityTimeout": "00:05:00",
+        "DisableGlobalLocks": true
+      }
+    },
+    "Credentials": {
+      "User": "admin",
+      "Password": "Bo!2bjaq"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "SwaggerSettings": {
+    "Enable": true,
+    "Title": "Trade-Genius WebAPI - Clean Architecture",
+    "Version": "1.0.0",
+    "Description": "Clean Architecture Template for .NET 7 WebApi built with Multitenancy Support.",
+    "ContactName": "Vahid Saberi",
+    "ContactEmail": "cyrus.pirates@gmail.com",
+    "ContactUrl": "https://linkedin.com/in/vahidsaberi",
+    "License": true,
+    "LicenseName": "MIT License",
+    "LicenseUrl": "https://github.com/vahidsaberi/Trade-Genius/blob/main/LICENSE"
+  }
+}

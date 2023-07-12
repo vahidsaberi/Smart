@@ -1,0 +1,17 @@
+/Users/king/Sources/Smart/Services/Identity/Identity.Domain/bin/Debug/net7.0/Identity.Domain.deps.json
+/Users/king/Sources/Smart/Services/Identity/Identity.Domain/bin/Debug/net7.0/Identity.Domain.dll
+/Users/king/Sources/Smart/Services/Identity/Identity.Domain/bin/Debug/net7.0/Identity.Domain.pdb
+/Users/king/Sources/Smart/Services/Identity/Identity.Domain/bin/Debug/net7.0/Base.Domain.dll
+/Users/king/Sources/Smart/Services/Identity/Identity.Domain/bin/Debug/net7.0/Base.Shared.dll
+/Users/king/Sources/Smart/Services/Identity/Identity.Domain/bin/Debug/net7.0/Base.Domain.pdb
+/Users/king/Sources/Smart/Services/Identity/Identity.Domain/bin/Debug/net7.0/Base.Shared.pdb
+/Users/king/Sources/Smart/Services/Identity/Identity.Domain/obj/Debug/net7.0/Identity.Domain.csproj.AssemblyReference.cache
+/Users/king/Sources/Smart/Services/Identity/Identity.Domain/obj/Debug/net7.0/Identity.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/king/Sources/Smart/Services/Identity/Identity.Domain/obj/Debug/net7.0/Identity.Domain.AssemblyInfoInputs.cache
+/Users/king/Sources/Smart/Services/Identity/Identity.Domain/obj/Debug/net7.0/Identity.Domain.AssemblyInfo.cs
+/Users/king/Sources/Smart/Services/Identity/Identity.Domain/obj/Debug/net7.0/Identity.Domain.csproj.CoreCompileInputs.cache
+/Users/king/Sources/Smart/Services/Identity/Identity.Domain/obj/Debug/net7.0/Identity.Domain.csproj.CopyComplete
+/Users/king/Sources/Smart/Services/Identity/Identity.Domain/obj/Debug/net7.0/Identity.Domain.dll
+/Users/king/Sources/Smart/Services/Identity/Identity.Domain/obj/Debug/net7.0/refint/Identity.Domain.dll
+/Users/king/Sources/Smart/Services/Identity/Identity.Domain/obj/Debug/net7.0/Identity.Domain.pdb
+/Users/king/Sources/Smart/Services/Identity/Identity.Domain/obj/Debug/net7.0/ref/Identity.Domain.dll
